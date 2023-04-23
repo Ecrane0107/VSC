@@ -1,0 +1,23 @@
+Question:
+What is a Queue?
+
+Answer:
+A queue is a linear data structure following the First-In-First-Out (FIFO) principle. Elements are inserted at the rear and removed from the front. Common operations include enqueue, dequeue, and peek.
+
+Question: 
+What is a Stack?
+
+Answer:
+A stack is a linear data structure following the Last-In-First-Out (LIFO) principle. Elements are added and removed from the same end, called the top. Common operations include push, pop, and peek.
+
+Question:
+What is a Heap?
+
+Answer:
+A heap is a specialized tree-based data structure that satisfies the heap property, typically in the form of a binary tree. It can be visualized as a balanced tree where each node has at most two children. Heaps are commonly used for priority queues and efficient sorting algorithms.
+
+Question:
+What is a API?
+
+Answer:
+An API (Application Programming Interface) is a set of rules, protocols, and tools that enable interaction between software components. It allows developers to access and use functions, data, or services from other software systems. APIs simplify the development process and promote software reusability.
