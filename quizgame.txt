@@ -21,3 +21,243 @@ What is a API?
 
 Answer:
 An API (Application Programming Interface) is a set of rules, protocols, and tools that enable interaction between software components. It allows developers to access and use functions, data, or services from other software systems. APIs simplify the development process and promote software reusability.
+
+Question:
+What is Big O notation?
+
+Answer:
+Big O notation is a way to express the performance of an algorithm by describing its time complexity or space complexity. It represents the upper bound of an algorithm's growth rate, showing how the runtime or space requirements increase as the input size grows. Common time complexities include O(1), O(log n), O(n), O(n log n), and O(n^2).
+
+Question:
+What is a Linked List?
+
+Answer:
+A linked list is a linear data structure in which elements are stored in nodes, and each node points to the next node in the sequence. Linked lists can be singly-linked (each node points to the next node) or doubly-linked (each node points to both the previous and next nodes). Common operations include insertion, deletion, and traversal.
+
+Question:
+What is a Hash Table?
+
+Answer:
+A hash table is a data structure that provides fast insertion, deletion, and search operations by using a hash function to map keys to indices in an underlying array. Each key is unique, and the hash function ideally distributes keys uniformly across the array to minimize collisions. In case of collisions, various techniques such as open addressing and separate chaining can be employed to resolve them.
+
+Question:
+What is recursion?
+
+Answer:
+Recursion is a programming technique where a function calls itself to solve a problem. It breaks the problem into smaller, more manageable subproblems and combines the results of these subproblems to form the final solution. Recursive functions typically have a base case (the smallest problem that can be solved directly) and a recursive case (where the function calls itself with a smaller input).
+
+Question:
+What is a Graph?
+
+Answer:
+A graph is a non-linear data structure consisting of a finite set of vertices (or nodes) and edges connecting these vertices. Graphs can be directed (edges have a direction) or undirected (edges have no direction). They can be used to represent various real-world relationships and problems, such as social networks, transportation networks, and flow networks. Common graph algorithms include depth-first search, breadth-first search, Dijkstra's shortest path, and the minimum spanning tree.
+
+Question:
+What is the difference between a process and a thread?
+
+Answer:
+A process is an instance of a running program, having its own memory space and resources. A thread is a lightweight, concurrent unit of execution within a process, sharing the process's memory and resources.
+
+Question:
+What is a deadlock in concurrent programming?
+
+Answer:
+A deadlock is a situation where two or more threads are blocked indefinitely, waiting for resources held by each other, causing the program to come to a standstill.
+
+Question:
+Explain the concept of polymorphism in object-oriented programming.
+
+Answer:
+Polymorphism is the ability of a single function or method to operate on multiple types or the ability of different objects to respond to the same method call. It enables reusability and flexibility in code design.
+
+Question:
+What is the difference between a relational database and a NoSQL database?
+
+Answer:
+Relational databases use tables with predefined schemas and relations between them, while NoSQL databases use various data models like key-value, document, or graph without fixed schemas. NoSQL databases are typically more scalable and flexible compared to relational databases.
+
+Question:
+What is the time complexity of the quicksort algorithm in the average and worst cases?
+
+Answer:
+Quicksort's average-case time complexity is O(n log n), while its worst-case time complexity is O(n^2). However, with proper pivot selection, the worst case can be avoided in practice.
+
+Question:
+What is a race condition in concurrent programming?
+
+Answer:
+A race condition occurs when the behavior of a program depends on the relative timing of events, such as the order in which threads are scheduled to run, leading to unpredictable and undesirable outcomes.
+
+Question:
+What is the difference between Git's merge and rebase operations?
+
+Answer:
+Merge combines two branches by creating a new merge commit, preserving the branch history. Rebase rewrites the commit history by applying the changes from one branch onto another, creating a linear history.
+
+Question:
+What is the CAP theorem in distributed systems?
+
+Answer:
+The CAP theorem states that a distributed system can only guarantee two out of the three following properties simultaneously: Consistency, Availability, and Partition Tolerance.
+
+Question:
+What is the difference between an inner join and an outer join in SQL?
+
+Answer:
+An inner join returns rows with matching values in both tables being joined, while an outer join returns all rows from one table and the matching rows from the other table, filling in NULL values for non-matching rows.
+
+Question:
+What is the main advantage of using an Agile software development methodology?
+
+Answer:
+Agile development promotes flexibility and collaboration, enabling continuous improvement, faster delivery of valuable features, and better adaptability to changing requirements or customer needs.
+
+Question:
+What is the difference between a class and an object in object-oriented programming?
+
+Answer:
+A class is a blueprint defining properties and methods, while an object is an instance of a class, created with specific values for its properties and the ability to execute its methods.
+
+Question:
+What is the principle of "separation of concerns" in software design?
+
+Answer:
+Separation of concerns is a design principle that promotes modularization and organization of code by dividing a program into distinct sections, each responsible for a specific functionality, improving maintainability and readability.
+
+Question:
+What is the role of a load balancer in a distributed system?
+
+Answer:
+A load balancer distributes incoming network traffic across multiple servers, improving system performance, availability, and resilience to handle high traffic or server failures.
+
+Question:
+What is the purpose of using exception handling in programming languages?
+
+Answer:
+Exception handling provides a way to detect, handle, and recover from abnormal conditions (errors) during program execution, improving robustness and maintainability by separating error-handling code from regular code.
+
+Question:
+What is memoization in the context of algorithm optimization?
+
+Answer:
+Memoization is an optimization technique that stores the results of expensive function calls and returns the cached result when the same inputs occur again, reducing redundant computations and improving the algorithm's efficiency.
+
+Question:
+What is the difference between strong and weak typing in programming languages?
+
+Answer:
+Strong typing enforces strict rules on variable types and disallows implicit type conversions, while weak typing allows more flexibility with types and may perform implicit type conversions, potentially leading to unexpected behavior.
+
+Question:
+What is the Liskov Substitution Principle in object-oriented programming?
+
+Answer:
+The Liskov Substitution Principle states that objects of a derived class should be able to replace objects of the base class without affecting the correctness of the program, ensuring proper inheritance relationships and promoting code reusability.
+
+Question:
+What is the main difference between a microservices architecture and a monolithic architecture?
+
+Answer:
+A microservices architecture consists of small, independent, and loosely coupled services, each responsible for a specific functionality, while a monolithic architecture combines all functionalities into a single, tightly coupled application, making it harder to scale or maintain.
+
+Question:
+What is the purpose of a Docker container in software development?
+
+Answer:
+Docker containers package applications and their dependencies into a lightweight, portable, and consistent environment, improving the development, deployment, and execution processes by isolating applications and ensuring they run consistently across different platforms.
+
+Question:
+What is the main advantage of using Test-Driven Development (TDD) in software development?
+
+Answer:
+TDD promotes the creation of high-quality, reliable, and maintainable code by writing tests before implementing the actual code, ensuring that code meets requirements, and making it easier to refactor or extend functionality without introducing regressions.
+
+Question:
+What is the difference between functional programming and imperative programming?
+
+Answer:
+Functional programming focuses on the evaluation of functions without changing the state, emphasizing immutability and the use of pure functions, while imperative programming focuses on changing the program's state through sequences of commands or statements.
+
+Question:
+What is inversion of control (IoC) in software design?
+
+Answer:
+Inversion of control is a design principle where the control flow of a program is inverted, allowing external frameworks or components to manage dependencies and control the execution, promoting modularity, extensibility, and decoupling of components.
+
+Question:
+What is the purpose of using continuous integration and continuous deployment (CI/CD) in software development?
+
+Answer:
+CI/CD is a set of practices that automate the process of integrating code changes, testing, building, and deploying applications, enabling faster delivery, improving code quality, and ensuring that the software remains in a releasable state throughout the development lifecycle.
+
+Question:
+What is the main difference between a shallow copy and a deep copy in the context of data structures?
+
+Answer:
+A shallow copy creates a new object with references to the same inner elements as the original object, while a deep copy creates a new object with completely independent copies of all inner elements, ensuring no shared references between the original and copied objects.
+
+Question:
+What is the difference between static and dynamic typing in programming languages?
+
+Answer:
+Static typing enforces type checking at compile-time, catching type-related errors before the program runs, while dynamic typing performs type checking at runtime, allowing for more flexibility but potentially leading to type-related errors during program execution.
+
+Question:
+What is the purpose of a version control system in software development?
+
+Answer:
+A version control system tracks and manages changes to source code, allowing developers to collaborate, maintain a project history, revert to previous versions, and resolve conflicts between code changes.
+
+Question:
+What is the difference between synchronous and asynchronous programming?
+
+Answer:
+Synchronous programming involves executing tasks sequentially, waiting for one task to finish before starting the next, while asynchronous programming allows tasks to execute concurrently, without waiting for one task to complete before starting another, improving overall performance.
+
+Question:
+What is the purpose of a RESTful API in web development?
+
+Answer:
+A RESTful API (Representational State Transfer) is an architectural style for designing networked applications that communicate over HTTP, allowing clients to interact with resources by using standard HTTP methods, promoting scalability, simplicity, and maintainability.
+
+Question:
+What is a binary search algorithm, and what is its time complexity?
+
+Answer:
+A binary search algorithm finds the position of a target value within a sorted array by repeatedly dividing the search interval in half, with a time complexity of O(log n), making it an efficient search method for large datasets.
+
+Question:
+What is the difference between horizontal and vertical scaling in distributed systems?
+
+Answer:
+Horizontal scaling involves adding more machines to a system, distributing the workload across multiple nodes, while vertical scaling involves increasing the resources (CPU, memory, storage) of an existing machine to handle a higher workload.
+
+Question:
+What is encapsulation in object-oriented programming?
+
+Answer:
+Encapsulation is the concept of bundling data (properties) and methods that operate on that data within a single unit, typically a class, while restricting access to the internal state, promoting modularity, maintainability, and data integrity.
+
+Question:
+What is a just-in-time (JIT) compiler in the context of programming languages?
+
+Answer:
+A JIT compiler is a component of some runtime environments that translates code into machine language during program execution, optimizing performance by compiling frequently executed code into a more efficient form, balancing the advantages of interpreted and compiled languages.
+
+Question:
+What is the difference between a primary key and a foreign key in a relational database?
+
+Answer:
+A primary key is a unique identifier for each row in a table, ensuring no duplicate records, while a foreign key is a field (or a set of fields) in a table that refers to the primary key of another table, establishing relationships between tables and ensuring data integrity.
+
+Question:
+What is the main advantage of using the Model-View-Controller (MVC) pattern in software development?
+
+Answer:
+The MVC pattern promotes separation of concerns by dividing an application into three interconnected components: Model (data), View (user interface), and Controller (business logic), improving maintainability, testability, and extensibility.
+
+Question:
+What is a domain-specific language (DSL) in the context of software development?
+
+Answer:
+A domain-specific language is a specialized language designed for a particular domain or industry, providing a focused syntax and semantics to solve specific problems, making it easier to express and understand solutions within that domain.
