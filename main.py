@@ -20,15 +20,15 @@ def read_questions(filepath):
 def ask_question(question, answer):
     user_answer = input(f"{question} ")
     print()
-    show_answer = input("Do you want to see the answer? (yes/no) ")
+    show_answer = input("Do you want to see the answer? (y/n) ")
     print()
-    if show_answer.lower() == "yes":
+    if show_answer.lower() == "y":
         print(f"The answer is: {answer}")
         print()
 
-    is_correct = input("Did you get it right? (yes/no) ")
+    is_correct = input("Did you get it right? (y/n) ")
     print()
-    return is_correct.lower() == "yes"
+    return is_correct.lower() == "y"
 
 def main():
     filepath = 'quizgame.txt'
