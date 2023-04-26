@@ -261,3 +261,123 @@ What is a domain-specific language (DSL) in the context of software development?
 
 Answer:
 A domain-specific language is a specialized language designed for a particular domain or industry, providing a focused syntax and semantics to solve specific problems, making it easier to express and understand solutions within that domain.
+
+Question:
+What is a garbage collector in the context of programming languages?
+
+Answer:
+A garbage collector is a memory management component that automatically reclaims memory occupied by objects that are no longer in use, reducing the risk of memory leaks and freeing developers from manual memory management tasks.
+
+Question:
+What is a hash table data structure, and what is its average time complexity for insertion, deletion, and searching operations?
+
+Answer:
+A hash table is a data structure that uses a hash function to map keys to their corresponding values, providing an average time complexity of O(1) for insertion, deletion, and searching operations, making it highly efficient for key-value storage.
+
+Question:
+What is the purpose of a content delivery network (CDN) in web development?
+
+Answer:
+A CDN is a distributed network of servers that stores and delivers content, such as web pages, images, and videos, to users from a server geographically closer to the user, reducing latency and improving the overall performance and reliability of web applications.
+
+Question:
+What is the main difference between authentication and authorization in the context of computer security?
+
+Answer:
+Authentication is the process of verifying the identity of a user, device, or system, while authorization is the process of determining what actions or resources an authenticated user, device, or system is allowed to access.
+
+Question:
+What is the purpose of a build system in software development?
+
+Answer:
+A build system automates the process of compiling, linking, and packaging source code into an executable program, ensuring consistent and repeatable builds, simplifying dependency management, and speeding up the development process.
+
+Question:
+What is the Singleton design pattern in object-oriented programming?
+
+Answer:
+The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance, preventing multiple instances of a class that should have a single, shared state or functionality.
+
+Question:
+What is an event loop in the context of asynchronous programming?
+
+Answer:
+An event loop is a programming construct that continuously listens for and processes events or tasks, such as input/output operations or timers, in a non-blocking, asynchronous manner, allowing a program to handle multiple tasks concurrently without blocking the main execution thread.
+
+Question:
+What is the difference between a left join and a right join in SQL?
+
+Answer:
+A left join returns all rows from the left table and the matching rows from the right table, filling in NULL values for non-matching rows. A right join does the opposite, returning all rows from the right table and the matching rows from the left table, filling in NULL values for non-matching rows.
+
+Question:
+What is the purpose of a software design pattern?
+
+Answer:
+A software design pattern is a reusable solution to a common problem that arises in software design, providing a best-practice template for solving specific design issues, promoting maintainability, reusability, and readability of code.
+
+Question:
+What is the main difference between server-side rendering (SSR) and client-side rendering (CSR) in web development?
+
+Answer:
+SSR generates the full HTML content on the server and sends it to the client, providing faster initial page loads and better SEO, while CSR generates HTML content on the client using JavaScript, allowing for more dynamic and interactive web applications but potentially increasing initial load times.
+
+Question:
+What is the purpose of an Abstract Factory design pattern in object-oriented programming?
+
+Answer:
+The Abstract Factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes, promoting modularity, flexibility, and the separation of concerns between object creation and usage.
+
+Question:
+What is the difference between a process and a thread in the context of operating systems?
+
+Answer:
+A process is an independent execution unit consisting of its own memory space and resources, while a thread is a lightweight execution unit within a process that shares the same memory space and resources, enabling concurrent execution of tasks within a process.
+
+Question:
+What is the CAP theorem in the context of distributed systems?
+
+Answer:
+The CAP theorem states that in a distributed system, it is impossible to simultaneously guarantee consistency, availability, and partition tolerance. A system can only guarantee two of these properties at the expense of the third.
+
+Question:
+What is the difference between a stateful and a stateless application?
+
+Answer:
+A stateful application maintains information about its state and the state of its clients between requests, while a stateless application does not store any information about the state of the application or its clients, making each request independent of any previous requests.
+
+Question:
+What is the purpose of a Dependency Injection (DI) pattern in software design?
+
+Answer:
+Dependency Injection is a pattern that decouples dependencies between objects, promoting flexibility, maintainability, and testability by injecting dependencies (usually interfaces) into objects, rather than directly instantiating them within the objects.
+
+Question:
+What is the main difference between a NoSQL database and a relational database?
+
+Answer:
+A NoSQL database is a non-relational database that uses a variety of data models for storing and managing data, providing flexibility, scalability, and performance for large-scale or unstructured data, while a relational database uses a structured schema and tables with relations to store and manage data, providing strong consistency and data integrity.
+
+Question:
+What is an optimistic concurrency control mechanism in the context of databases?
+
+Answer:
+Optimistic concurrency control is a mechanism that allows multiple transactions to access shared resources simultaneously, assuming conflicts are rare, and validating transactions only when they are committed, improving performance at the cost of occasional conflict resolution.
+
+Question:
+What is a race condition in the context of concurrent programming?
+
+Answer:
+A race condition occurs when two or more concurrent processes or threads access shared data simultaneously, leading to unpredictable or undesirable behavior due to the dependency on the relative timing of events.
+
+Question:
+What is the main difference between imperative and declarative programming?
+
+Answer:
+Imperative programming focuses on how a computation is performed, describing the sequence of steps to achieve a result, while declarative programming focuses on what the desired result is, specifying the desired output without detailing the steps to achieve it.
+
+Question:
+What is the purpose of a Proxy design pattern in object-oriented programming?
+
+Answer:
+The Proxy pattern provides a surrogate or placeholder for another object, controlling access to the original object, allowing for additional functionality, such as lazy initialization, caching, or access control, without modifying the original object's behavior.
